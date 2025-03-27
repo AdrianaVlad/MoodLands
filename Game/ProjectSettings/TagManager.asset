@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Wall
+  - Ceiling
+  - Ground
+  - Enemy
+  - Trigger
+  - Heal
+  - Mana
+  - Light
+  - Power
+  - Breakable
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: bg
+    uniqueID: 3839432961
+    locked: 0
+  - name: l2
+    uniqueID: 3292743517
+    locked: 0
+  - name: l3
+    uniqueID: 3269686521
+    locked: 0
+  - name: l4
+    uniqueID: 2079281601
+    locked: 0
+  - name: l5
+    uniqueID: 1826754013
+    locked: 0

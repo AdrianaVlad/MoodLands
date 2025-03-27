@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 2820bb575426b4d47931ffad3bc3d736
+  - enabled: 1
+    path: Assets/Scenes/Red Level 1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Red Level 2.unity
+    guid: 406c345ee1d0d924e8e0246cefc3b10d
+  - enabled: 1
+    path: Assets/Scenes/Red Level 3.unity
+    guid: feb24c44fb6c41e49b0403e7521c07c5
+  - enabled: 1
+    path: Assets/Scenes/Red Level 4.unity
+    guid: 722b15d183fa5734994ba995e4d4780a
+  - enabled: 1
+    path: Assets/Scenes/Red Level 5.unity
+    guid: b3ec14400bf3bc1488a2b1f1a307aa82
+  - enabled: 1
+    path: Assets/Scenes/Green Level 1.unity
+    guid: 07fceef4c76a01748b93652ca39587b3
+  - enabled: 1
+    path: Assets/Scenes/Green Level 2.unity
+    guid: eb76a246c7c720f4898533e21cedbf3c
+  - enabled: 1
+    path: Assets/Scenes/Green Level 3.unity
+    guid: 726abde67d8c2664aa29c932c6a301ab
+  - enabled: 1
+    path: Assets/Scenes/Green Level 4.unity
+    guid: 232af3adcee9e1c44a519dcb2395c072
+  - enabled: 1
+    path: Assets/Scenes/Green Level 5.unity
+    guid: 48220a00cf3aad24c9c584aff834261f
+  - enabled: 1
+    path: Assets/Scenes/Blue Level 1.unity
+    guid: 4e113616f68508c49a9371441d0fe80c
+  - enabled: 1
+    path: Assets/Scenes/Blue Level 2.unity
+    guid: 8f08178c8ad01724eb12610695c5312c
+  - enabled: 1
+    path: Assets/Scenes/Blue Level 3.unity
+    guid: f6a2830e6b458c847a4b60f3d5d1dd8f
+  - enabled: 1
+    path: Assets/Scenes/Blue Level 4.unity
+    guid: a821c697622ce634a800751c77e50056
+  - enabled: 1
+    path: Assets/Scenes/Blue Level 5.unity
+    guid: 356462d2765b52944a7e637fd6a29456
+  m_configObjects: {}

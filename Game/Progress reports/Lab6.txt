@@ -1,0 +1,12 @@
+Am realizat logica si implementarea primului tip de inamic, dragonii. Acestia initial merg, dar pot fi facuti sa se opreasca prin utilizarea abilitatii cu emotia 'neutru' sau 'trist', si pot fi facuti sa mearga iar cu emotia 'fericit' si pot fi facuti sa atace (scuipe foc) cu alte emotii. In momentul coliziunii cu un perete, schimba automat directia de mers. Nu au coliziune unii cu altii.
+Am finalizat functionalitatea primei abilitati: de a controla inamicii. Jucatorul incepe cu 3 HP si 3 MP. Cand atinge un inamic pierde 1 HP. cand utilizeaza o data abilitatea, cu sau fara succes, pierd 1 MP. Cand activeaza abilitatea camera se indeparteaza, pentru ca jucatorul sa vada inamici de la distante mai mari (desigur acest lucru poate fi folosit, intentionat, si pentru a vedea mai departe decat in mod normal, dar costul de 1 MP ramane). In acest timp jocul "ingheata", deghetand in momentul in care jucatul face click undeva. Daca face click pe un inamic, acesta va fi victima abilitatii.
+Am adaugat abilitatea de a recastiga HP si MP prin potiuni, gasite pe harta. Este suficienta atingerea lor. Efectul este imadiat si potiunea dispare.
+Am finalizat primul nivel, in care jucatorul invata de mecanica de triggers: anumite sectiuni de podea sau perete care deschid/inchid alte sectiuni. Acestea pot fi activate si de jucator si de inamici. Focusul acestui nivel este de a ne familiariza cu miscarile pe care le avem la dispozitie si de a vedea aceasta mecanica, nu de a utiliza abilitatea.
+Al doilea nivel este despre utilizarea abilitatii pentru a face dragonii sa mearga si sa se opreasca.
+Al treilea nivel este mai intunecat, dar cu torte pe care doar dragonii le pot aprinde. In plus, nivelul are elemente de labirint.
+Al patrulea nivel va fi mai lung, si va contine toate elementele din nivelele anterioare.
+Al cincilea nivel, daca este ultimul din aceasta zona, va fi timed si intentionat dificil. Exista totusi posibilitatea extinderii zonei la 10 nivele, mai tarziu.
+Implementarea unei a doua dificultati a acestor nivele este planificata, dar nu pentru aceasta saptamana.
+Am adaugat si un UI simplu, pentru demo.
+Am reparat de vreo 10 ori saritul si sper ca acum nu mai gasesc surprize.
+Am adaugat functionalitatea luminilor

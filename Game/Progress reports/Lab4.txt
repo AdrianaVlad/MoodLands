@@ -1,0 +1,16 @@
+Am realizat etapa de research: am decis numarul de nivele, elementele care trebuie implementate si am cautat assets pentru fiecare.
+Parafrazand din documentul in care imi notez dezvoltarea licentei:
+ ideea finala la care am ajuns este de a crea un platformer care are si elemente timed la finalul unui set de nivele. Fiecare set de nivele va avea o culoare reprezentativa, si un item specific asocial acelei culori, dar va include si elementele introduse in ‘regiunile’ anterioare. La finalul fiecarei regiuni va fi un nivel unde puzzle urile trebuie rezolvate fie in ritm cu muzica, fie cat mai repede posibil. Protagonistul va avea aspect feminin sau masculin, in functie de aspectul persoanei care joaca. Am doua idei de plan: 1. 5-10 nivele pentru fiecare regiune si 6 regiuni (rgbcmy), fiecare cu 2 dificultati, ajungand la un total de 60-120; 2. 10-20 nivele pentru fiecare regiune si 3 regiuni (rgbcmy), fiecare cu 2 dificultati, ajungand la un total de 60-120. Decid pe parcurs varianta finala. Jucatorii tineri (<13) si varstnici (>60) vor incepe jocul pe easy, restul pe normal. Dificultatea se va schimba (intre cele 2 optiuni) in functie de reactiile jucatorului (daca pare nervos, de exemplu, naratorul ii va sugera schimbarea dificultatii) //TODO detalieri legate de efectul fiecarei predictii a AI ului asupra jocului, gen “if glasses, rain blurs screen”, “if this, just narrator reaction”. Jocul va fi pus pe pauza daca nu e detectat nici un jucator (si de altfel e detectata o camera functionala). Alte feature uri includ save states: jocul va avea 3 save files din care jucatorul poate alege cand deschide jocul, dar care se vor salva automat la inceputul fiecarui nivel. Un alt aspect important este ca doar o abilitate poate fi folosita at a time.
+v2. exista posibilitatea includerii unui sistem simplu de combat (fara abilitati ofensive, ci un simplu basic atac pentru aparare impotriva creaturilor)
+Idei regiuni: 
+rosu: https://assetstore.unity.com/packages/2d/environments/platformer-set-150023. 
+https://assetstore.unity.com/packages/2d/characters/dragon-warrior-free-93896	
+abilitate: agravare: desi nu va exista combat, vor fi unele creaturi. abilitatea culorii rosii va fi de a afecta “sentimentele” lor in functie de emotia jocatorului (in practica reactia va fi simplificata. de ex: fie o creatura zburatoare: daca jucatorul este neutru si foloseste abilitatea, creatura se va opri in loc. daca e fericit sau nervos (sau emotii puternice) si foloseste abilitatea, va zbura foarte repede). acest lucru poate fi folosit aici pentru a “enerva” dragonii si a aprinde tortele, luminand drumul. Pentru claritate, toate creaturile care pot fi astfel afectate vor avea un outline (sau un alt fel de indicator) rosu.
+	verde:
+https://assetstore.unity.com/packages/2d/environments/platformer-tileset-pixelart-grasslands-248158
+https://assetstore.unity.com/packages/2d/environments/pixel-art-platformer-village-props-166114
+abilitate: crestere plante (ex: vines) pentru a crea platforme si scari. 
+	albastru:
+https://free-game-assets.itch.io/power-station-free-tileset-pixel-art	
+https://assetstore.unity.com/packages/2d/textures-materials/brick/aztech-blocks-by-gamertose-50486
+abilitate: activarea de mecanisme (grafic, cele din setul 2). la momentul activarii, acestea vor deveni albastre 

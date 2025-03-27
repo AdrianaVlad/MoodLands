@@ -1,0 +1,9 @@
+Am stabilit conexiunea dintre python si C#. Am gasit un asset pentru jucator feminin si l-am modificat pentru a crea si versiune masculina. in spate ambele vor fi prezente in scena, dar doar cea corespunzatoare aspectului jucatorului este vizibila.
+Pentru partea de predictii si interporetarea lor: in fisierul predictie.txt este scris o data la 2 secunde un json cu toate informatiile relevante legate de predictie. in unity citesc continutul o data pe secunda si tin minte ultimele 10 predictii, facand un average (pentru toate in afara de emotii, unde nu putem estima care ar fi un average intre 2 emotii) pentru a evita fluctuatiile din frame uri mai nepotrivite capturate in python.
+Am cautat tutoriale pentru dezvoltarea de platformere, dar va trebui evident sa adaptez acele informatii pentru ce asseturi vreau eu sa folosesc si ce gameplay mechanics vreau sa implementez.
+Am inceput realizarea primului nivel: personaj(e) principal(e), tileset, collisions, fundal si camera ce urmareste jucatorul
+Partea de easy / hard pe baza varstei va fi implementata mai tarziu: realizarea de 2 dificultati nu are prioritate mare momentan.
+Partea de ochelari va fi un gimmick, pentru a arata ca se pot utiliza si predictii "for fun", dar care ofera naratorului mai multa personalitate si il fac mai realist.
+Naratorul va fi implementat dupa primul set de nivele (adica 10). Implementarea lor, fara sunete si meniuri, are prioritatea cea mai mare.
+Partea de emotii va fi esentiala pentru abilitatea introdusa in aceste 10 nivele, evidentiind rapid interactivitatea si importanta predictiilor.
+Povestea inceputului e simpla: jucatorul se trezeste intr-un taram magic, intr-un castel necunoscut, plin de creaturi pe care trebuie sa le controleze pentru a putea avansa. Controlarea se bazeaza pe emotiile aratate la camera.

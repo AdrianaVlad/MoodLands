@@ -1,0 +1,30 @@
+Zona verde:
+enemy: slimes: attack, move, jump: sar o data si atat. accelereaza viteza de mers inainte de saritura (sau sar in loc)
+move: happy, jump: surprised, idle: neutral, attack: angry
+in loc de triggers care fac sa apara/dispara tiles, zona are platforme care se misca pana la o destinatie fixa, atat timp cat sunt in contact cu jucatorul
+daca jucatorul sare de pe ele, se opresc. jucatorul e miscat o data cu platforma
+Am adaugat si buton de restart nivel (esc)
+adaugat platforme care functioneaza (doar) pentru slimes
+platformele se intorc la pozitia originala daca sunt atinse dupa ce ajung la destinatie
+nivelul 1 este introductiv: prezinta aspectele caracteristice nivelului si ofera mana astfel incat jucatorul sa poata testa cum poate afecta noii inamici
+nivelul 2 are multe platforme care se misca, introducand si cele care pot fi miscate doar de inamici
+nivelul 3 presupune miscarea unui slime, cu tot cu sarituri si opriri, pana la finalul nivelului pentru a cobora platforma necesara pentru a ajunge la final
+nivelul 4 necesita o stransa colaborare cu slime urile prezente in nivel, pentru a aduce / ajunge la platforme necesare jucatorului pentru a continua, la fiecare etapa a nivelului
+nivelul 5 are iar timer, iar jucatorul trebuie sa contruiasca cu ajutorul slime urilor pezente deasupra si sub nivelul la care se afla el intreaga platforma care duce spre final.
+
+Zona albastra:
+enemy: bot: miscari mult mai rigide: doar una simultan, adoarme daca nu face nimic si trebuie sa stai sa se trezeasca
+atacatul are multe functii: doare de la distanta (impuscat), activeaza mecanisme electrice (portale), poate distruge unele obiecte
+in loc de platforme care se misca, sunt portale. unele trebuie sa fie activate (sa primeasca electricitate de la o sursa) inainte sa fie operabile. acest lucru e indicat de culoarea aparatului
+exista, iar, portale care merg doar pentru inamici
+am reparat un bug in care daca inamicii erau initiati uitandu-se in directia inversa (fata de default of the sprite) mergeau cu spatele
+am adaugat toggle al meniului care explica the controls
+nivelul 1 e tot introductiv: prezinta un portal care merge de la sine, unul pentru inamici, si 2 care trebuie activate. la unul are acces si la baterie, pentru a vedea ca atingerea ei direct de catre jucator nu o activeaza. si observat si ca platformele incluinate functioneaza altfel decat in zona 1, intrucat aici e mult mai dificil sa sari de pe ele
+nivelul 2 arata cum jucatorul se poate feri de atacurile botilor si are mai multe portale intr-un loc central la care jucatorul se tot reintoarce, fiind necesara explorarea tuturor
+nivelul 3 introduce abilitatea botilor de a "elimina" anumite obiecte, in special tevi, eliberand cai noi, abilitate necesara pentru a scapa din zona in care e inchis jucatorul dupa aceasta introducere
+nivelul 4 are foarte multe portale in zona de start. toate duc in zone mici din care jucatorul se poate intoare sau activa alte portale, doar una din zonele mici ducand la partea finala de platforming.
+nivelul 5 este ultimul challenge si contine multe portale pentru inamici, botii trebuind sa elibereze cai si sa se ajute unii pe altii pentru ca, in final, sa il ajute pe jucator
+
+in final jucatorul este readus la meniul principal, desigur cu felicitarile meritate.
+Am adaugat titlul si am modificat stilul meniului principal.
+lucru nementionat pana acum este zona audio: am realizat tot jocul fara sunete. in urma finalizarii jocului am reluat fiecare element si am adaugat efecte audio si muzica.

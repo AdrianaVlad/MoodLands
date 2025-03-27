@@ -1,0 +1,6 @@
+Meniu principal cu setari: default player model and difficulty + optionea de a forta utilizarea default urilor chiar daca este camera
+Pauza cand nu e nimeni in fata camerei + unpause cand e
+Abilitatea de a alege emotii cand nu e webcam pentru abilitate
+Save/load game+settings(se incepe de la inceputul ultimului nivel)
+Terminat zona rosie (primele 5 nivele)
+Am implementat o prima versiune de easy mode: pt varste <=13 sau >=60: incepe cu 5 hp si mp, iar potiunile recupereaza 2hp/mp in loc de 1.
