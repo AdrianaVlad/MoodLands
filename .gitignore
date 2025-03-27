@@ -1,0 +1,17 @@
+# Ignore Unity auto-generated files
+**/Library/
+**/Temp/
+**/Obj/
+**/Logs/
+**/MemoryCaptures/
+**/Build/
+**/Builds/
+
+# Ignore NN model files in RNModel
+RNModel/*.h5
+RNModel/dist/unity_comm/*.h5
+RNModel/dist/unity_comm/_internal*.h5
+RNModel/dist/unity_comm/_internal/tensorflow/python/_pywrap_tensorflow_internal.pyd
+RNModel/build
+
+GameExport

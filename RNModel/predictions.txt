@@ -1,0 +1,1 @@
+{"gender": "F", "ageIndex": 5, "age": "33-43", "emotion": "neutral"}
